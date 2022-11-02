@@ -1,0 +1,84 @@
+
+
+
+div.logo{
+    top:32px;
+    position: relative;
+    width:295px;
+    z-index:100;
+    text-align:center;
+  }
+  div.logo img{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    opacity: .7;
+  }
+  
+  div.logo img:hover{
+    -moz-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    opacity: 1;
+  }
+  
+  .sw{
+    width:980px;
+    margin:0 auto;
+    padding:0px;
+  }
+  .sw:after{
+    content:"";
+    display:block;
+    height:0px;
+    visibility: hidden;
+    width:100%;
+    clear:both;
+  }
+  i.socicon{
+    background:url('../images/social-icons/spr_Soc.png') no-repeat;
+    display:inline-block;
+  }
+  i.socicon.fb{background-position: 0px 0px;width:13px;height:24px;}
+  i.socicon.gp{background-position: -13px 0px;width:24px;height:24px;}
+  i.socicon.yt{background-position: -37px 0px;width:24px;height:24px;}
+  i.socicon.tw{background-position: -61px 0px;width:24px;height:24px;}
+  
+  ul.socicons{
+    width:300px;
+    position:relative;
+    float: right;
+  }
+  ul.socicons p{
+    display: inline-block;
+    font-size:16px;
+    position:relative;
+    top:-4px;
+    text-transform:uppercase;
+    color:#fff;
+    opacity:.5;
+  }
+  ul.socicons p:after{
+    content:":";
+    padding-left:3px;
+    font-size:19px;
+  }
+  ul.socicons li{
+    display: inline-block;
+    margin-right:10px;
+    opacity: .5;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  ul.socicons li:hover{
+    opacity: 1;
+  }
+  ul.socicons li:last-child{margin-right:0px;
+  }
